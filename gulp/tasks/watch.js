@@ -12,7 +12,7 @@ gulp.task('watch', function(){
 	});
 
 	watch('./app/index.html', function(){
-		browerSync.reload();
+		browerSync.reload();//why is this not working?
 	});
 
 	watch('./app/assets/styles/**/*.css', function(){

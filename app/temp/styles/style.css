@@ -330,7 +330,7 @@ a{
       font-size:2.9rem
   }
   }
-.large-hero__description{
+.large-hero__description{ 
     color:#fff;
     font-size:1.1rem;
     font-weight:100;
@@ -781,3 +781,21 @@ automatically by Gulp. Instead edit gulp/templates/sprite */
   height:42px;
   background-position: 36.69752421959096% 45.792307692307695%;
 }
+.site-footer{
+  background-color:#2f5572;
+  color: #fff;
+  padding: .5rem 0;
+  text-align: center;
+  font-weight:200;
+}
+.site-footer__text{
+    display: block;
+    margin-bottom: 1rem;
+  }
+@media(min-width: 800px){
+.site-footer__text{
+      display:inline;
+      margin-bottom: 0px;
+      margin-right:1.4rem
+  }
+  }

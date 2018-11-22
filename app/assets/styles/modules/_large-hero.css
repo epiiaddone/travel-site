@@ -9,6 +9,11 @@
     text-align: center;
     top:50%;
     transform: translateY(-50%);
+    padding-top:88px;
+
+    @mixin atMedium{
+      padding-top:60px;
+    }
   }
 
   &__title{
@@ -34,7 +39,7 @@
     }
   }
 
-  &__description{ 
+  &__description{
     color:#fff;
     font-size:1.1rem;
     font-weight:100;

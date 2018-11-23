@@ -10,10 +10,14 @@
     max-width:976px;
   }
 
+  &--narrow{
+    max-width:470px;
+  }
+
   &--no-padding-until-medium{
     padding-left:0px;
     padding-right:0px;
-  
+
     @mixin atMedium{
       padding-left:18px;
       padding-right:18px;
